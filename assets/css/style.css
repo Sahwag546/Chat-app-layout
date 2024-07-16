@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -52,26 +53,16 @@ section {
     padding-right: 12px;
 }
 
-
-
 .col-6 {
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
-
-
-
 .col-9 {
     width: 75%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
-
-
-
 
 /*-----------section {1} details---------*/
 header {
@@ -221,7 +212,7 @@ nav ul li a {
     font-weight: 600;
     font-size: 50px;
     margin-top: 100px;
-    font-family: poppins,sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 .para3 {
@@ -229,7 +220,7 @@ nav ul li a {
     font-size: 20px;
     margin-top: 30px;
     color: rgb(158, 157, 157);
-    font-family: poppins,sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 .pic2 {
@@ -238,74 +229,96 @@ nav ul li a {
 
 /*------------section {3} details-------------*/
 .section-3 {
-    background-color: rgb(192, 216, 251);
-    position: relative;
+
+
+    background-color: rgb(184, 184, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
 
 }
+.container2{
+    
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+       overflow: hidden;
+}
 
-.container2 {
-    max-width: 1140px;
+.postion-absolute {
     position: absolute;
     left: 0;
-    display: flex;
 
 }
 
-.heading2 {
-    font-weight: 600;
+.perfect {
+    font-family: Poppins;
     font-size: 40px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
-    font-family: poppins,sans-serif;
+    font-weight: 500;
+    line-height: 57.78px;
+    text-align: left;
+
 }
 
-.btn3 {
-    width: 150px;
-    height: 60px;
-    border-radius: 100px;
-    background: rgb(75, 75, 248);
-    color: white;
-    cursor: pointer;
-    margin-right: 10px;
-    font-family: poppins,sans-serif;
+.glove {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33.96px;
+    text-align: left;
+    color: gray;
+    margin-top: 30px;
 }
 
-.btn3:hover {
-    background-color: rgb(192, 216, 251);
-    border: 2px solid blue;
-    color: blue;
+.star {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(70, 69, 69);
+
 }
 
-.btn-3-parent {
-    display: flex;
-    font-family: popins,sans-serif;
-    margin-top: 60px;
+.m-top {
+    margin-top: 30px;
 }
+
 
 .line {
     padding: 1px;
     width: 150px;
-    background-color: rgb(160, 160, 160);
-    border: 0px solid rgb(161, 161, 161);
-    margin-top: 90px;
-}
-
-.img-para7-parent {
-    display: flex;
+    background: gray;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.para7 {
-    margin-top: 15px;
-    font-family: Roboto;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 29.11px;
-    text-align: left;
-    margin-left: 10px;
-    color: gray;
+
+
+.btn3 {
+    padding: 20px 50px;
+    border-radius: 100px;
+    background: rgb(75, 75, 248);
+    color: white;
+    margin-top: 40px;
+    margin-right: 30px;
+    border: 2px solid blue;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.btn3:hover {
+    background-color: rgb(184, 184, 251);
+    color: blue;
+}
+
+.f-size {
+  
+    font-weight: 400;
+    font-size: 29px;
 }
 
 /*-------------section {4} details------------*/
@@ -341,6 +354,9 @@ nav ul li a {
     padding-bottom: 12px;
 }
 
+.groupimg {
+    width: 100%;
+}
 
 .d-flex {
     display: flex;
@@ -380,31 +396,36 @@ ol li a {
     text-align: left;
 
 }
-.text{
-    font-family: poppins,sans-serif;
+
+.text {
+    font-family: poppins, sans-serif;
     color: black;
     cursor: pointer;
     padding-bottom: 12px;
-} 
-.text2{
-    font-family: poppins,sans-serif;
+}
+
+.text2 {
+    font-family: poppins, sans-serif;
     padding-bottom: 12px;
 }
 
-.para8{
+.para8 {
 
     color: rgb(158, 156, 156);
 }
-.chat{
+
+.chat {
     font-size: 30px;
     font-weight: 500;
-    font-family: poppins,sans-serif;
+    font-family: poppins, sans-serif;
 }
-.app{
+
+.app {
     font-size: 30px;
     font-weight: 300;
-    font-family: poppins,sans-serif;
+    font-family: poppins, sans-serif;
 }
+
 /*---------------responsive nav------------*/
 @media (max-width:576px) {
     .menu {
@@ -425,6 +446,7 @@ ol li a {
         background: #000;
         line-height: 20px;
     }
+
 
     .para {
         font-size: 40px;
@@ -448,8 +470,6 @@ ol li a {
         width: 200px;
     }
 
-
-
 }
 
 @media (max-width:1200px) {
@@ -457,6 +477,15 @@ ol li a {
     .col-6 {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .section-3 {
+        height: 150vh;
+    }
+
+
+    .star {
         width: 100%;
     }
 
@@ -477,18 +506,6 @@ ol li a {
         margin-left: 0;
     }
 
-    .pic3 {
-        width: 100%;
-    }
-
-    .container2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card {
-        margin-top: 0px;
-    }
 
 }
 
@@ -503,6 +520,12 @@ ol li a {
     .mb-24 {
         margin-bottom: 24px;
     }
+
+    .card-parent {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
