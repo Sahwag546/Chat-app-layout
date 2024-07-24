@@ -68,7 +68,12 @@ section {
 header {
     background: blue;
 }
-
+.ml-30{
+    margin-left: 180px;
+}
+.mr-30{
+    margin-right: 200px;
+}
 .section-1 {
     background: blue;
     display: flex;
@@ -87,6 +92,8 @@ header {
     text-align: left;
     line-height: 100px;
     margin-left: 20px;
+ 
+ 
 }
 
 nav {
@@ -112,6 +119,7 @@ nav ul li a {
 }
 
 .btn1 {
+    font-family: roboto ,sans-serif;
     padding: 15px 30px;
     border-radius: 100px;
     background: rgb(75, 75, 248);
@@ -135,6 +143,8 @@ nav ul li a {
     font-size: 40px;
     display: none;
     color: black;
+
+ 
 }
 
 #box:checked~ul {
@@ -237,7 +247,9 @@ nav ul li a {
     justify-content: center;
     align-content: center;
     justify-items: center;
-
+    z-index: -1;
+    position: relative;
+  
 }
 .container2{
     
@@ -268,18 +280,18 @@ nav ul li a {
     font-weight: 400;
     line-height: 33.96px;
     text-align: left;
-    color: gray;
+    color: #2B353EB2;
     margin-top: 30px;
 }
 
 .star {
     font-family: Roboto;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 5 00;
     line-height: 29.11px;
     text-align: left;
     margin-left: 20px;
-    color: rgb(70, 69, 69);
+    color: #2B353EB2;
 
 }
 
@@ -309,6 +321,9 @@ nav ul li a {
     cursor: pointer;
     background-size: cover;
 }
+.card3{
+    margin-left: 150px;
+}
 
 .btn3:hover {
     background-color: rgb(184, 184, 251);
@@ -317,8 +332,14 @@ nav ul li a {
 
 .f-size {
   
-    font-weight: 400;
-    font-size: 29px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    color:rgb(71, 71, 71);
+  
+    
 }
 
 /*-------------section {4} details------------*/
@@ -378,7 +399,18 @@ ol li a {
 .text {
     color: #000;
 }
-
+.text3{
+    position:relative;
+    top: 100%;
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 21.02px;
+text-align: left;
+color: rgb(88, 88, 88);
+   
+   
+}
 .card-box-parent {
     display: flex;
 }
@@ -432,8 +464,11 @@ ol li a {
         display: block;
         cursor: pointer;
         margin-right: 60px;
+       
+       
+     
     }
-
+  
     nav ul {
         display: block;
         margin-top: 100px;
@@ -445,6 +480,10 @@ ol li a {
         transition: all 500ms;
         background: #000;
         line-height: 20px;
+    }
+    .text3{
+   position: relative;
+   top: 500px;
     }
 
 
@@ -516,7 +555,12 @@ ol li a {
         padding-left: 12px;
         padding-right: 12px;
     }
-
+    .text3{
+        position: relative;
+        top: 500px;
+     
+           
+         }
     .mb-24 {
         margin-bottom: 24px;
     }
@@ -524,6 +568,12 @@ ol li a {
     .card-parent {
         display: flex;
         flex-direction: column;
+    }
+    .card3{
+        margin-left: 0px;
+    }
+    .ml-30{
+        margin-left: 0;
     }
 
 }
